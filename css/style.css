@@ -1,0 +1,16 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.centered span {
+    font-size: small;
+}
+

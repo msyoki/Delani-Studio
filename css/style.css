@@ -14,3 +14,12 @@
     font-size: small;
 }
 
+.about {
+    text-align: center;
+    clear: both;
+    padding: 40px;
+}
+
+.about span {
+    font-weight: bold;
+}

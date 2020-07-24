@@ -1,25 +1,12 @@
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.jumbotron-fluid {
+    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
     color: white;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 10px;
+    padding: 10%;
 }
 
-
-.centered span {
-    font-size: small;
-}
-
-.about {
-    text-align: center;
-    clear: both;
-    padding: 40px;
-}
-
-.about span {
-    font-weight: bold;
-}

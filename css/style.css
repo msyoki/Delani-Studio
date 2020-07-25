@@ -45,6 +45,10 @@ body {
     padding: 40px;
 }
 
+.services h4 {
+    font-weight: bold;
+}
+
 .what-we-do {
     padding: 40px;
 }

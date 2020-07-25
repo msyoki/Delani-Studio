@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .jumbotron-fluid {
     background-image: url("/assets/backgrounds/h_img.jpg");
     background-size: cover;
@@ -5,8 +9,18 @@
     height: auto;
     width: auto;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 10%;
+
+
 }
+
+.landing-page .welcome-text {
+    font-weight: bolder;
+}
+
+.landing-page .tagline {
+    font-size: small;
+
+}
+
 

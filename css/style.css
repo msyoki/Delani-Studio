@@ -45,3 +45,10 @@ body {
     padding: 40px;
 }
 
+.what-we-do {
+    padding: 40px;
+}
+.what-we-do .header {
+    font-weight: bold;
+    text-align: center;
+}

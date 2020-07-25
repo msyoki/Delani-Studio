@@ -87,3 +87,8 @@ body {
     font-weight: bold;
     
 }
+
+.footer {
+    text-align: center;
+    padding: 40px;
+}

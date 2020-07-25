@@ -16,7 +16,7 @@ body {
 }
 
 .landing-page .welcome-text {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .landing-page .tagline {
@@ -50,9 +50,23 @@ body {
 }
 
 .what-we-do {
-    padding: 40px;
+  padding-top: 80px;
 }
 .what-we-do .header {
     font-weight: bold;
     text-align: center;
+}
+
+.portfolio {
+    margin: 150px;
+}
+
+.portfolio h4 {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.portfolio .card {
+    margin: 5px;
 }

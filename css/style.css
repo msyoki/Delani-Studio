@@ -10,7 +10,7 @@ body {
     width: auto;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 
 
 }
@@ -26,7 +26,7 @@ body {
 
 .aboutUs {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     clear: both;
 }
 
@@ -38,6 +38,6 @@ body {
     width: auto;
     color: white;
     text-align: center;
-    padding: 20px;
-
+    padding: 40px;
 }
+

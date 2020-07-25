@@ -24,10 +24,14 @@ body {
 
 }
 
-.aboutUs {
+.aboutUs{
     text-align: center;
     padding: 40px;
     clear: both;
+}
+
+.aboutUs h4 {
+    font-weight: bold;
 }
 
 .services {

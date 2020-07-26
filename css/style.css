@@ -59,6 +59,17 @@ body {
     text-align: center;
 }
 
+.shown-design{
+    display: none;
+}
+.shown-development{
+    display: none;
+}
+
+.shown-management{
+    display: none;
+}
+
 .portfolio {
     padding: 100px;
 }

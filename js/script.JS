@@ -13,5 +13,17 @@ $(document).ready(function() {
         $(".shown-management").toggle();
         $(".hidden-management").toggle();
     }); 
+
+
+    $('.card').hover(function(){
+        $('.toggle-text',this).slideToggle('slow');
+     }, function(){
+        $('.toggle-text',this).fadeToggle('slow');
+     });
+
+
+
+
+
 });
 

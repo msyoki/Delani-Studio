@@ -103,18 +103,19 @@ body {
     display: none;
 }
 
-.portfolio {
-    padding: 100px;
-}
 
 .portfolio h4 {
     text-align: center;
     font-weight: bold;
     
 }
-
+.portfolio {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
 .portfolio .card {
-    margin: 5px;
+    margin: 10px;
 }
 
 .toggle-text {

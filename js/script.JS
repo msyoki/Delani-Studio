@@ -2,19 +2,19 @@ $(document).ready(function() {
 
     //what we do text toggle
     $(".design").click(function() {
-      $(".shown-design").toggle();
-      $(".hidden-design").toggle();
-    });
-
-    $(".development").click(function() {
-        $(".shown-development").toggle();
-        $(".hidden-development").toggle();
-    });
-
-    $(".management").click(function() {
-        $(".shown-management").toggle();
-        $(".hidden-management").toggle();
-    }); 
+        $(".shown-design").fadeToggle('slow');
+        $(".hidden-design").fadeToggle('slow');
+      });
+  
+      $(".development").click(function() {
+          $(".shown-development").fadeToggle('slow');
+          $(".hidden-development").fadeToggle('slow');
+      });
+  
+      $(".management").click(function() {
+          $(".shown-management").fadeToggle('slow');
+          $(".hidden-management").fadeToggle('slow');
+      }); 
 
 
     //portfolio text toggle 

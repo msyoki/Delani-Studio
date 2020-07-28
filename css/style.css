@@ -23,6 +23,14 @@ body {
 
 
 }
+.logo {
+    margin-top: 100px;
+}
+
+.landing-page {
+    margin-bottom: 50px;
+}
+
 
 .landing-page .welcome-text {
     font-weight: bold;
@@ -35,6 +43,7 @@ body {
 
 .mouse-bounce {
     animation: bounce 3s infinite;
+    margin-top: 10px;
 }
 
 @keyframes bounce {

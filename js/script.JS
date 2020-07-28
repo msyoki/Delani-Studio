@@ -2,18 +2,18 @@ $(document).ready(function() {
 
     //what we do text toggle
     $(".design").click(function() {
-        $(".shown-design").fadeToggle('slow');
-        $(".hidden-design").fadeToggle('slow');
+        $(".shown-design").fadeToggle();
+        $(".hidden-design").fadeToggle();
       });
   
       $(".development").click(function() {
-          $(".shown-development").fadeToggle('slow');
-          $(".hidden-development").fadeToggle('slow');
+          $(".shown-development").fadeToggle();
+          $(".hidden-development").fadeToggle();
       });
   
       $(".management").click(function() {
-          $(".shown-management").fadeToggle('slow');
-          $(".hidden-management").fadeToggle('slow');
+          $(".shown-management").fadeToggle();
+          $(".hidden-management").fadeToggle();
       }); 
 
 

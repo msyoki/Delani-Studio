@@ -136,6 +136,20 @@ body {
     font-weight: bold;
     
 }
+#name {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#email {
+    margin-left:5px;
+    margin-bottom: 10px;
+
+}
+#message {
+    margin-left:5px;
+    margin-bottom: 20px;
+}
+
 
 .footer {
     text-align: center;

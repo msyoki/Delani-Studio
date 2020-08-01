@@ -25,14 +25,13 @@ $(document).ready(function() {
     });
 
     //form input validation
-    $("#form").on('submit',function(event){
+    $("#mc-embedded-subscribe-form").on('submit',function(event){
         event.preventDefault();
-        let name = $("#name").val();
-        let email = $("#email").val();
-        let message = $("#message").val();
+        let name = $("#mce-FNAME").val();
+        let email = $("#mce-EMAIL").val();
 
-        if ($("input#name").val() && $("input#email").val()){
-            alert ("Hello " + name +" ! Thank you for reaching out to us,we'll get back to you asap");
+        if ($("input#mce-FNAME").val() && $("input#mce-EMAIL").val()){
+            alert ("Hello!!! " + name +".Thank you for reaching out to us,we'll get back to you asap.");
         }
         else {
             alert("Please provide your correct name and email!");
